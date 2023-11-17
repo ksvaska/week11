@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+#title{
+    color: cornflowerblue;
+    font-size: 50px;
+    
+}
+
+#item{
+    background: transparent;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    border: 3px rgb(12, 10, 122) solid;
+    color: darkslateblue;
+}
+#taskList{
+    color: darkslateblue;
+    font-size: 18px;
+   
+}
+#btn{
+    height: 30px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    color: rgb(250, 245, 250);
+    font-size: 17px;
+}
+.task{
+    text-decoration: line-through;
+    color: azure;
+}
